@@ -20,7 +20,7 @@ class splash1 extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  "WEL",
+                  "VAN",
                   style: TextStyle(
                     fontSize: 22.0,
                     fontWeight: FontWeight.bold,
@@ -28,7 +28,7 @@ class splash1 extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "CO",
+                  "STO",
                   style: TextStyle(
                     fontSize: 22.0,
                     fontWeight: FontWeight.bold,
@@ -36,7 +36,7 @@ class splash1 extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "ME",
+                  "RE",
                   style: TextStyle(
                     fontSize: 22.0,
                     fontWeight: FontWeight.bold,
@@ -67,10 +67,10 @@ class splash1 extends StatelessWidget {
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () {
-                    // Navigator.push(
-                    //   context,
-                    //   MaterialPageRoute(builder: (context) => splash2()),
-                    // );
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => splash2()),
+                    );
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.blue,
