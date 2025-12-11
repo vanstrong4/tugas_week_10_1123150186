@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tugas_week_10_1123150186/pages/splash1.dart';
 
 void main() {
   runApp(const Vanstore());
@@ -12,9 +13,8 @@ class Vanstore extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      theme: ThemeData(fontFamily: 'BebasNeue'),
       title: 'evan tugas week 10',
-      // home: Splash(),
+      home: splash1(),
     );
   }
 }
