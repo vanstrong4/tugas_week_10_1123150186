@@ -1,16 +1,6 @@
 # tugas_week_10_1123150186
 
-A new Flutter project.
+<img width="922" height="886" alt="image" src="https://github.com/user-attachments/assets/f948a6e1-b533-4446-ac70-5799d42be100" />
+<img width="923" height="970" alt="image" src="https://github.com/user-attachments/assets/04bc950e-01a2-433a-8da0-91a0a3255fc4" />
+<img width="915" height="903" alt="image" src="https://github.com/user-attachments/assets/dfb66431-bdfe-406a-94ae-728e197c718e" />
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
