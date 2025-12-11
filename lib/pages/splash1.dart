@@ -24,7 +24,7 @@ class splash1 extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 22.0,
                     fontWeight: FontWeight.bold,
-                    color: Colors.red,
+                    color: Colors.blue,
                   ),
                 ),
                 Text(
@@ -32,7 +32,7 @@ class splash1 extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 22.0,
                     fontWeight: FontWeight.bold,
-                    color: Colors.red,
+                    color: Colors.blue,
                   ),
                 ),
                 Text(
@@ -40,7 +40,7 @@ class splash1 extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 22.0,
                     fontWeight: FontWeight.bold,
-                    color: Colors.red,
+                    color: Colors.blue,
                   ),
                 ),
               ],
@@ -51,40 +51,13 @@ class splash1 extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 14.0,
-                color: const Color.fromARGB(255, 255, 0, 0),
+                color: const Color.fromARGB(255, 43, 178, 219),
               ),
             ),
-            SizedBox(height: 20),
+
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Container(
-                  height: 10,
-                  width: 10,
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 255, 0, 0),
-                    shape: BoxShape.circle,
-                  ),
-                ),
-                SizedBox(width: 10),
-                Container(
-                  height: 10,
-                  width: 10,
-                  decoration: BoxDecoration(
-                    color: Colors.yellow[100]!,
-                    shape: BoxShape.circle,
-                  ),
-                ),
-                SizedBox(width: 10),
-                Container(
-                  height: 10,
-                  width: 10,
-                  decoration: BoxDecoration(
-                    color: Colors.green[100]!,
-                    shape: BoxShape.circle,
-                  ),
-                ),
-              ],
+             
             ),
             SizedBox(height: 20),
             Container(
@@ -100,11 +73,11 @@ class splash1 extends StatelessWidget {
                     // );
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.red,
+                    backgroundColor: Colors.blue,
                   ),
                   child: Text(
                     "Continue",
-                    style: TextStyle(fontSize: 12, color: Colors.white),
+                    style: TextStyle(fontSize: 15, color: Colors.white),
                   ),
                 ),
               ),
