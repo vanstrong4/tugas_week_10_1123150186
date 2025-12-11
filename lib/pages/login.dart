@@ -68,35 +68,9 @@ class _MyLoginState extends State<Login> {
           padding: const EdgeInsets.all(16),
           child: Column(
             children: [
-              SizedBox(height: 20),
+              SizedBox(height: 400),
               Stack(
                 children: [
-                  Container(
-                    width: 200,
-                    height: 200,
-                    decoration: const BoxDecoration(
-                      color: Colors.red,
-                      shape: BoxShape.circle,
-                    ),
-                  ),
-                  Container(
-                    margin: EdgeInsets.only(left: 50),
-                    width: 200,
-                    height: 200,
-                    decoration: BoxDecoration(
-                      color: Colors.yellow,
-                      shape: BoxShape.circle,
-                    ),
-                  ),
-                  Container(
-                    margin: EdgeInsets.only(left: 100),
-                    width: 200,
-                    height: 200,
-                    decoration: BoxDecoration(
-                      color: Colors.green,
-                      shape: BoxShape.circle,
-                    ),
-                  ),
                 ],
               ),
               SizedBox(height: 8),
@@ -108,7 +82,7 @@ class _MyLoginState extends State<Login> {
                     style: TextStyle(
                       fontSize: 22.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.red,
+                      color: Colors.blue,
                     ),
                   ),
                   Text(
@@ -116,7 +90,7 @@ class _MyLoginState extends State<Login> {
                     style: TextStyle(
                       fontSize: 22.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.yellow,
+                      color: Colors.blue,
                     ),
                   ),
                   Text(
@@ -124,7 +98,7 @@ class _MyLoginState extends State<Login> {
                     style: TextStyle(
                       fontSize: 22.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.green,
+                      color: Colors.blue,
                     ),
                   ),
                 ],
@@ -142,7 +116,7 @@ class _MyLoginState extends State<Login> {
                     ),
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(12),
-                      borderSide: const BorderSide(color: Colors.red),
+                      borderSide: const BorderSide(color: Color.fromARGB(255, 18, 185, 171)),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(12),
@@ -167,12 +141,12 @@ class _MyLoginState extends State<Login> {
                     ),
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(12),
-                      borderSide: const BorderSide(color: Colors.yellow),
+                      borderSide: const BorderSide(color: Color.fromARGB(255, 7, 165, 131)),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(12),
                       borderSide: BorderSide(
-                        color: Colors.yellow.shade700,
+                        color: const Color.fromARGB(255, 9, 196, 243),
                         width: 2,
                       ),
                     ),
@@ -193,10 +167,10 @@ class _MyLoginState extends State<Login> {
                       onPressed: _isLoading ? null : _login,
                       
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.green,
+                        backgroundColor: Colors.blue,
                       ),
                       child: Text(
-                        "Loginin Ajee BRAYYYYY",
+                        "GAS LOGIN",
                         style: TextStyle(fontSize: 12, color: Colors.white),
                       ),
                     ),
