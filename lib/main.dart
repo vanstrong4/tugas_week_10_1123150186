@@ -14,6 +14,7 @@ class Vanstore extends StatelessWidget {
       debugShowMaterialGrid: false,
       theme: ThemeData(fontFamily: 'BebasNeue'),
       title: 'evan tugas week 10',
+      // home: Splash(),
     );
   }
 }
